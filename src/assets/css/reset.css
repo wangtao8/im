@@ -1,0 +1,69 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  background: #F0F1F6;
+}
+
+input {
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+img {
+  border: 0;
+  vertical-align: top;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+/* 导航图标 */
+.van-nav-bar{
+  height: 44px;
+}
+.van-nav-bar__title{
+  font-size: 17px;
+  color: #000B22;
+}
+.van-nav-bar .van-icon img {
+  width: 25px;
+  height: 25px;
+}
+
+/*弹出框*/
+.van-dialog {
+  text-align: center;
+  border-radius: 14px;
+}
+
+.van-dialog .van-dialog__header {
+  font-size: 16px;
+  color: #000;
+}
+
+.van-dialog .van-dialog__message--has-title {
+  color: #828791;
+}
+
+.van-dialog [class*=van-hairline]::after {
+  border-color: #797989;
+}
